@@ -1,0 +1,154 @@
+.man .block-1 .top-title>div {
+	background: url(/assets_pages/upsells/img/phone-icon-2-lighter.png) center bottom no-repeat;
+}
+.dashed_frame {
+	border: 1px dashed grey;
+	border-radius: 10px;
+	opacity: 1;
+	background: none;
+	top: 0;
+	height: auto;
+	padding: 15px 20px;
+	width: 90%;
+	margin-bottom: 20px;
+}
+.dashed_frame h2 {
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+}
+.present {
+	background-color: #eff2fa;
+	border-radius: 10px;
+	padding: 20px !important;
+	height: 510px !important;
+	border: 1px solid #e2dfe9;
+}
+.offer-head {
+	left: -40px;
+	position: relative;
+}
+.mail-box .head {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	text-align: center;
+	margin: 20px 0;
+}
+.mail-box .email_ss_holder {
+	float: none;
+	width: 100%;
+	padding: 45px 10px 15px;
+	text-align: center;
+}
+.mail-box .email_cc_input {
+	border: 1px solid #dcdada;
+	background-color: rgba(204, 204, 204, 0.16);
+	width: 258px;
+	color: #000;
+}
+.mail-box .btn_ss_holder {
+	float: none;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+.mail-box .desc_cc_desc {
+	margin: 45px 0px 0;
+	color: #7b7b7b;
+	font-size: 14px;
+}
+.present-descr {
+	width: 58%;
+	float: left;
+}
+.present1 {
+	float: left;
+	text-align: center;
+	width: 30%;
+	margin: 0 5px;
+}
+.present1.last:after {
+	clear: both;
+}
+.mail-box {
+	background: url("/assets_pages/upsells/img/mail-box.png") center top no-repeat;
+	width: 42%;
+	float: left;
+	padding: 1px 45px;
+	height: 375px;
+}
+.tov-gal-big {
+	margin-top: 45px !important;
+	border: 1px solid lightgrey;
+}
+.tov-gal-list {
+	margin-top: 45px !important;
+}
+.tov-left-cont {
+	width: 420px !important;
+}
+.thanks {
+	margin: 43% auto;
+	font-size:28px;
+	text-align:center;
+	line-height:36px
+}
+.thanks span {
+	font-size:20px;
+}
+@media (max-width: 960px){
+	.mail-box, .present-descr {
+		float: none;
+		width: 100%;
+	}
+	.present {
+		height: 100% !important;
+	}
+	.present-descr {
+		height: 375px;
+	}
+	.offer-head {
+		left: -40px;
+	}
+	.thanks {
+		width: 55%;
+		margin: 25% auto;
+	}
+}
+@media (max-width: 640px){
+	.present1 {
+		margin: 0 3px;
+	}
+	.present, .mail-box .head, .mail-box .desc_cc_desc {
+		font-size: 80%;
+	}
+	.present-descr {
+		height: 300px;
+	}
+	.mail-box .email_ss_holder {
+		padding: 45px 0 15px;
+	}
+	.mail-box .email_cc_input {
+		width: 100%;
+	}
+	.mail-box {
+		height: 330px;
+		background-size: contain;
+	}
+	.mail-box .head {
+		margin: 15px 0;
+	}
+	.top-title-c {
+		top: 0 !important;
+	}
+	.thanks {
+		font-size: 18px;
+		line-height: 30px;
+		width: 100%;
+		margin: 55% auto;
+	}
+	.thanks span {
+		font-size: 14px;
+	}
+}

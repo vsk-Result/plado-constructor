@@ -1,0 +1,32 @@
+﻿.block-2 .wrap {
+    padding: 20px;
+    text-align: center;
+    text-transform: inherit !important;
+    color: #fff;
+    font-weight: 400;
+}
+.btn-yellow {
+  background: yellow;
+  color: #000000;
+  border: none;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.btn-yellow:hover, .btn-yellow:focus {
+  background: #f3f349;
+}
+.btn-yellow:active {
+  background: #f3f349;
+}
+input{
+	text-indent: 0px !important;
+}
+@media (min-width: 1000px){
+	.text-holder{
+	text-align: right;
+	}
+	.button-holder{
+	text-align: left;
+	}
+}

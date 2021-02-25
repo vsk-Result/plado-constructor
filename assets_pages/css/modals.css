@@ -1,0 +1,73 @@
+
+.modal-dialog {
+    z-index: 1100;
+}
+
+.modal-dialog .error-message {
+    color: #a94442;
+}
+
+.modal-abuse .modal-header,
+.modal-abuse-sent .modal-header {
+    border-bottom: none;
+}
+
+.modal-abuse .modal-footer,
+.modal-abuse-sent .modal-footer {
+    border-top: none;
+}
+
+.modal-dialog label {
+    font-weight: normal;
+}
+
+.modal-abuse .modal-dialog {
+    max-width: 460px;
+}
+
+.modal-abuse .modal-footer,
+.modal-abuse-sent .modal-footer {
+    text-align: center;
+}
+
+.modal-abuse .modal-footer .btn,
+.modal-abuse-sent .modal-footer .btn {
+    line-height: 1.5rem;
+}
+
+.modal-abuse .hint {
+    font-size: 1.3rem;
+}
+
+.modal-abuse textarea {
+    min-height: 12rem;
+    resize: vertical;
+}
+
+.modal-abuse .input-group-addon {
+    background-color: transparent;
+    border: none;
+    color: #a94442;
+}
+
+.modal-abuse textarea + .input-group-addon {
+    vertical-align: top;
+    padding-top: 3rem;
+}
+
+.modal-abuse [type="tel"] {
+    max-width: 39.7rem;
+}
+
+.modal-abuse .input-group .form-control:first-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.modal-abuse-sent .modal-body {
+    text-align: center;
+}
+
+.modal-abuse #abuse_captcha > div {
+    margin: 0 auto;
+}

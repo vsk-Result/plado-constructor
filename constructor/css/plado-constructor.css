@@ -1,0 +1,109 @@
+#constructor-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: darkgray;
+    width: 300px;
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#constructor-toolbar .btn, #constructor-gallery .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,
+        background-color .15s ease-in-out,
+        border-color .15s ease-in-out,
+        box-shadow .15s ease-in-out;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+#constructor-toolbar .btn.btn-primary, #constructor-gallery .btn.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+#constructor-toolbar .btn.btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+#constructor-toolbar .btn.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.mr-1, .mx-1 {
+    margin-right: .25rem!important;
+}
+
+#constructor-gallery {
+    position: fixed;
+    top: 100px;
+    left: calc(50% - 400px);
+    background: #eee;
+    padding: 20px;
+    max-width: 800px;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+
+#constructor-gallery .constructor-gallery__input {
+    margin-bottom: 20px;
+}
+
+#constructor-gallery .constructor-gallery__input input {
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+#constructor-gallery .constructor-gallery__images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#constructor-gallery .constructor-gallery__images .constructor-gallery__image {
+    border: 2px solid darkblue;
+    margin: 10px;
+    flex-basis: 150px;
+    height: 150px;
+    transition: transform .2s ease-in-out;
+}
+
+#constructor-gallery .constructor-gallery__images .constructor-gallery__image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#constructor-gallery .constructor-gallery__images .constructor-gallery__image img {
+    height: 100%;
+}
+
+#constructor-gallery .constructor-gallery__footer {
+    padding-top: 50px;
+}
+
+#constructor-gallery .constructor-gallery__footer button {}

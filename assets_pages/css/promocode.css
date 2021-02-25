@@ -1,0 +1,113 @@
+@import "/assets_pages/fonts/roboto.css"
+form .status_promo {
+  position: relative;
+}
+.error-text,
+.success-text {
+  position: absolute;
+  width:100%;
+  color: #FFFFFF;
+  background-color: #59D044;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+
+  visibility: visible;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 9;
+}
+.error-text {
+  background-color: #C2151B;
+}
+
+
+.fixed-bottom {
+    background-color: #fff;
+    width: 100%;
+
+    position: fixed;
+    bottom: 0;
+    left:0;
+    z-index: 200;
+}
+.fixed-bottom .section {
+    font-family: 'Roboto';
+/*    height: 38px;*/
+    padding: 16px 20px 16px;
+    position: relative;
+    width: 550px;
+    margin: 0 auto;
+}
+.fixed-bottom .sign {
+    color: #000;
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    width: 200px;
+}
+.fixed-bottom .field {
+    float: left;
+    width: 170px;
+}
+.fixed-bottom .field input {
+    background-color: #ccc;
+    border: none;
+    color: #1e9a08;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 170px;
+}
+.fixed-bottom .field input::-webkit-input-placeholder { color: #999; }
+.fixed-bottom .field input:-moz-placeholder { color: #999; }
+.fixed-bottom .button {
+    float: left;
+    width: 130px;
+}
+.fixed-bottom .button button {
+    background-color: #ff3636;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 130px;
+}
+.fixed-bottom .promo-error,
+.fixed-bottom .promo-success {
+    display: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.fixed-bottom .promo-error { color: red; }
+.fixed-bottom .promo-success { color: green; }
+.fixed-bottom .clear { clear: both !important; }
+
+@media screen and (max-width: 480px) {
+    .fixed-bottom {
+        width: 480px;
+        margin: 0px auto;
+
+        left:50%;
+        margin-left: -240px;
+    }
+    .fixed-bottom .section {
+        width: 340px;
+    }
+    .fixed-bottom .sign {
+        display: none;
+    }
+}

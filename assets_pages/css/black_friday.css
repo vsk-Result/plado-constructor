@@ -1,0 +1,103 @@
+#black_friday_m1_div,
+#black_friday_m1_div .black_friday_m1_div__title,
+#black_friday_m1_div .black_friday_m1_div__title .black_friday_m1_div__discount,
+#black_friday_m1_div .black_friday_m1_div__title .black_friday_m1_div__color,
+#black_friday_m1_div .black_friday_m1_div__close {
+    background: none;
+    position: static;
+    float: none;
+    outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+    -webkit-border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0;
+    width: auto;
+    height: auto;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0), inset 0 0 0 0 rgba(0,0,0,0);
+    box-shadow: 0 0 0 0 rgba(0,0,0,0), inset 0 0 0 0 rgba(0,0,0,0);
+    text-shadow: 0 0 0 rgba(0,0,0,0);
+}
+#black_friday_m1_div {
+    background: #eb1433;
+    width: 100%;
+    position: relative;
+    z-index: 99999;
+}
+#black_friday_m1_div,
+#black_friday_m1_div .black_friday_m1_div__title,
+#black_friday_m1_div .black_friday_m1_div__close {
+    display: block;    
+}
+
+#black_friday_m1_div .black_friday_m1_div__title {
+    background: #222;
+    padding: 10px 35px;
+    width: 100%;
+    text-align: center;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+}
+#black_friday_m1_div .black_friday_m1_div__title .black_friday_m1_div__discount,
+#black_friday_m1_div .black_friday_m1_div__title .black_friday_m1_div__color {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#black_friday_m1_div .black_friday_m1_div__title .black_friday_m1_div__discount{
+    background: #eb1433;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 2px;
+}
+#black_friday_m1_div .black_friday_m1_div__title .black_friday_m1_div__color {
+    color:#ffcc00;
+    display: inline;
+    letter-spacing: 2px;
+}
+#black_friday_m1_div:after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 17px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAAAGCAYAAADaHFA7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpCMzM4MTcwMTk0RTZFODExOTYxQzlENDlGNzMzM0JDQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4MkFEODEyNkU4MTQxMUU4QTdEREZDQTVFNjU1QTAzQiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4MkFEODEyNUU4MTQxMUU4QTdEREZDQTVFNjU1QTAzQiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MEE4MDExNzQwNzIwNjgxMTgwODNBNzI4RjAwQTBEMjAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjMzODE3MDE5NEU2RTgxMTk2MUM5RDQ5RjczMzNCQ0IiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4P/mG7AAAAdUlEQVR42txVQQrAMAgzpf//coZQoYzZgjCWLkcrJUaNIGlKAGCcSMEDD/Cc6tvu76/R1AiFaCEYF1PD4kRhwEQh15RZrEy81SacDq+tKRJzwTnwVuFU8+0/2FfEK+Iq25fz6qpbkh3ju3XtmpbZn/KhvwQYAC7iWwodJJpxAAAAAElFTkSuQmCC) repeat-x 0 5px;
+}
+#black_friday_m1_div .black_friday_m1_div__close {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ffffff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAzElEQVQYlY2QPUpDURBGz3enfVwC6bzyGrfwQjqbQHAJugc7K1fgBmxdgLVNEkhjF5ItpLLV5nUWc8fCJwaN4IEpZs78wKiUcmVmd+7+DFwDPZ9k4N7Mzt39Vm3bvtZax4PcRcQEQNIW6ABSSm/J3Rd80wHLIbqvorsvVErJktaH4ge7iJgloI+IaUSsjjStImIK9OmPLb9IQJa0kTQ/4ueSNkC2nPODpIvDc8AeOBvyE6D993usaZoXM+tqrU/AJfA+DD0Cp2Y2cvebDy/3Sm6iaTm6AAAAAElFTkSuQmCC) no-repeat center center;
+    position: absolute;
+    right: 10px;
+    top:10px;
+    cursor: pointer;
+    opacity: .8;
+}
+#black_friday_m1_div .black_friday_m1_div__close:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 640px) {
+    #black_friday_m1_div .black_friday_m1_div__title {
+        font-size: 16px;
+    }
+    #black_friday_m1_div .black_friday_m1_div__title .black_friday_m1_div__discount{
+        padding: 3px 5px 2px;
+        margin: 0 1px;
+    }
+    
+}
