@@ -23,9 +23,9 @@
 				<div class="timer">
 					<p >Успейте до конца акции:</p>
 					<div class="timer_container">
-						<div class="count hours">08</div>
-						<div class="count minutes">08</div>
-						<div class="count seconds">58</div>
+						<div class="count hours">07</div>
+						<div class="count minutes">46</div>
+						<div class="count seconds">05</div>
 					</div>
 				</div>
 				<div class="price">
@@ -166,9 +166,9 @@
 				<div class="timer">
 					<p >Успейте до конца акции:</p>
 					<div class="timer_container">
-						<div class="count hours">08</div>
-						<div class="count minutes">08</div>
-						<div class="count seconds">58</div>
+						<div class="count hours">07</div>
+						<div class="count minutes">46</div>
+						<div class="count seconds">05</div>
 					</div>
 				</div>
 				<div class="price">
@@ -215,4 +215,4 @@
 	<script src="js/main.js"></script>
 
 
-</body><app-content ng-version="11.1.0"></app-content></html>
+</body><div></div><app-content ng-version="11.1.0"></app-content></html>
