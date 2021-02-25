@@ -24,8 +24,8 @@
 					<p >Успейте до конца акции:</p>
 					<div class="timer_container">
 						<div class="count hours">07</div>
-						<div class="count minutes">46</div>
-						<div class="count seconds">05</div>
+						<div class="count minutes">38</div>
+						<div class="count seconds">33</div>
 					</div>
 				</div>
 				<div class="price">
@@ -167,8 +167,8 @@
 					<p >Успейте до конца акции:</p>
 					<div class="timer_container">
 						<div class="count hours">07</div>
-						<div class="count minutes">46</div>
-						<div class="count seconds">05</div>
+						<div class="count minutes">38</div>
+						<div class="count seconds">33</div>
 					</div>
 				</div>
 				<div class="price">
