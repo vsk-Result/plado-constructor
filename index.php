@@ -18,22 +18,6 @@
 			<div class="main_subtitle" data-editable="text">для зубных щеток</div>
 			<div class="box">
 				<img data-editable="image" data-editable-type="image" src="images/offer.jpg" alt="">
-				<div class="sale"><p data-editable="text">скидка -53%</p></div>
-				<div class="benef" data-editable="text">Здоровье и безопасность</div>
-			</div>
-			<div class="timer_price clearfix">
-				<div class="timer">
-					<p data-editable="text">Успейте до конца акции:</p>
-					<div class="timer_container">
-						<div class="count hours"></div>
-						<div class="count minutes"></div>
-						<div class="count seconds"></div>
-					</div>
-				</div>
-				<div class="price">
-					<div class="old"><span data-editable="text">640</span><small data-editable="text">с.</small></div>
-					<div class="new"><span data-editable="text">319</span><small data-editable="text">с.</small></div>
-				</div>
 			</div>
 			<ul class="ofr_bull">
 				<li><p data-editable="text">Уничтожает любые бактерии ультрафиолетом</p></li>
@@ -41,7 +25,6 @@
 				<li><p data-editable="text">Удобный и вместительный органайзер</p></li>
 			</ul>
 			<a href="#order_form" class="button-m" data-editable="text">Заказать со скидкой</a>
-			<div class="prod_count" data-editable="text">Всего щеток по акции осталось: <b data-editable="text"><span data-editable="text">5</span> шт.</b></div>
 		</header>
 		<!--<section class="video_sect">
 			<div class="video_block">
@@ -161,22 +144,6 @@
 			<div class="main_subtitle" data-editable="text">для зубных щеток</div>
 			<div class="box">
 				<img data-editable="image" data-editable-text="image" src="images/offer.jpg" alt="">
-				<div class="sale"><p data-editable="text">скидка -53%</p></div>
-				<div class="benef" data-editable="text">Здоровье и безоспасность</div>
-			</div>
-			<div class="timer_price clearfix">
-				<div class="timer">
-					<p data-editable="text">Успейте до конца акции:</p>
-					<div class="timer_container">
-						<div class="count hours"></div>
-						<div class="count minutes"></div>
-						<div class="count seconds"></div>
-					</div>
-				</div>
-				<div class="price">
-					<div class="old"><span data-editable="text">640</span><small data-editable="text">с.</small></div>
-					<div class="new"><span data-editable="text">319</span><small data-editable="text">с.</small></div>
-				</div>
 			</div>
 			<form id="order_form" class="main-order-form m1-form" action="done.php" method="post">
 				<h4 data-editable="text">Оставьте заявку сейчас</h4>

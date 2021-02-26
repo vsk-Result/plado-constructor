@@ -45,10 +45,16 @@
     border-color: #ffc107;
 }
 
-#constructor-toolbar .btn.btn-success {
+#constructor-toolbar .btn.btn-success, #constructor-gallery .btn.btn-success  {
     color: #fff;
     background-color: #28a745;
     border-color: #28a745;
+}
+
+#constructor-gallery .btn.btn-sm  {
+    margin-top: 10px;
+    padding: .275rem .45rem;
+    font-size: .8rem;
 }
 
 .mr-1, .mx-1 {
@@ -58,12 +64,18 @@
 #constructor-gallery {
     position: fixed;
     top: 100px;
-    left: calc(50% - 400px);
+    left: calc(50% - 455px);
     background: #eee;
     padding: 20px;
-    max-width: 800px;
+    max-width: 910px;
     max-height: 800px;
     overflow-y: scroll;
+}
+
+#constructor-gallery .btn-close {
+    position: absolute;
+    top: 8px;
+    right: 22px;
 }
 
 #constructor-gallery .constructor-gallery__input {

@@ -121,6 +121,7 @@ section{
 
 .m1-form{
 	padding: 0 35px;
+	padding-top: 30px;
 }
 .m1-form input{
 	border: none;
@@ -207,6 +208,7 @@ section{
 .offer_section{
 	background: #0692f3;
 	padding: 0;
+	padding-bottom: 30px;
 }
 .offer_section .main_title{
 	background: #fff;
@@ -222,15 +224,15 @@ section{
 	color: #f92d6a;
 	margin-left: 2px;
 }
-.offer_section .main_title:before{
-	content: '';
-	width: 41px;
-	height: 50px;
-	background: url(../images/main_title.png) 50% 50% no-repeat;
-	display: inline-block;
-	vertical-align: middle;
-	margin: -3px 3px 0 0;
-}
+/*.offer_section .main_title:before{*/
+/*	content: '';*/
+/*	width: 41px;*/
+/*	height: 50px;*/
+/*	background: url(../images/main_title.png) 50% 50% no-repeat;*/
+/*	display: inline-block;*/
+/*	vertical-align: middle;*/
+/*	margin: -3px 3px 0 0;*/
+/*}*/
 .main_subtitle{
 	background: #047ccf;
 	line-height: 55px;
@@ -377,6 +379,7 @@ section{
 .ofr_bull{
 	padding: 0 40px;
 	margin-bottom: 30px;
+	padding-top: 30px;
 }
 .ofr_bull>li{
 	display: table;
