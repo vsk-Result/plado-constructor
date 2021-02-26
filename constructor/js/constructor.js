@@ -20,7 +20,7 @@ securityPassword.focus()
 
 securityPassword.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
-        if (e.target.value === 'dashaiscool') {
+        if (e.target.value === 'landcreator19pld') {
             security.remove()
         } else {
             e.target.value = ''
