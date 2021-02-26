@@ -8,11 +8,10 @@ function response() {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (!empty($_FILES)) {
-        var_dump($_FILES);
-        exit;
         foreach ($_FILES['inputfile']['name'] as $index => $filename) {
             $destinationDir = '../../images/' . $filename;
-            move_uploaded_file($_FILES['inputfile']['tmp_name'][$index], $destinationDir);
+            var_dump(move_uploaded_file($_FILES['inputfile']['tmp_name'][$index], $destinationDir));
+            exit;
         }
     }
 
