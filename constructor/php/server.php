@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $newHtml = clearHtmlFromConstructor(json_decode($request)->newHtml);
 
-    file_put_contents('../output/index.php', $newHtml);
+    file_put_contents('../output/new_index.php', $newHtml);
 
     response('Download done! See new index file in constructor/output directory!', 200);
 }

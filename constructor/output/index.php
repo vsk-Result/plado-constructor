@@ -12,13 +12,13 @@
 <body>
 	<div class="main_wrapper">
 		<header class="offer_section">
-			<div class="main_title"><span >Стерилизатор</span></div>
+			<div class="main_title"><span >Стеfgfрилизатор</span></div>
 			<div class="main_subtitle" >для зубных щеток</div>
 			<div class="box">
 				<img   src="images/offer.jpg" alt="">
 			</div>
 			<ul class="ofr_bull">
-				<li><p >Уничтожает любые бактерии ультраsdfфиолетом</p></li>
+				<li><p >Уничтожает любые бактерии ультрафиолетом</p></li>
 				<li><p >Позволяет заряжать станцию любым типом освещения</p></li>
 				<li><p >Удобный и вместительный органайзер</p></li>
 			</ul>
@@ -166,7 +166,7 @@
 
 
     
-   
+    
         <div id="constructor-toolbar" data-toolbar="">
             <div data-toolbar="closed" style="display: block;">
                 <button class="btn btn-primary shadow-sm mr-1" data-toolbar="edit">Изменить</button>
