@@ -12,7 +12,7 @@
 <body>
 	<div class="main_wrapper">
 		<header class="offer_section">
-			<div class="main_title"><span >Стерилизатор</span></div>
+			<div class="main_title"><span >Стdddерилизатор</span></div>
 			<div class="main_subtitle" >для зубных щеток</div>
 			<div class="box">
 				<img   src="images/offer.jpg" alt="">
