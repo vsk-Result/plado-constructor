@@ -16,30 +16,13 @@
 			<div class="main_subtitle" >для зубных щеток</div>
 			<div class="box">
 				<img   src="images/offer.jpg" alt="">
-				<div class="sale"><p >скидка -53%</p></div>
-				<div class="benef" >Здоровье и безопасность</div>
-			</div>
-			<div class="timer_price clearfix">
-				<div class="timer">
-					<p >Успейте до конца акции:</p>
-					<div class="timer_container">
-						<div class="count hours">07</div>
-						<div class="count minutes">38</div>
-						<div class="count seconds">33</div>
-					</div>
-				</div>
-				<div class="price">
-					<div class="old"><span >640</span><small >с.</small></div>
-					<div class="new"><span >319</span><small >с.</small></div>
-				</div>
 			</div>
 			<ul class="ofr_bull">
-				<li><p >Уничтожает любые бактерии ультрафиолетом</p></li>
+				<li><p >Уничтожает любые бактерии ультраsdfфиолетом</p></li>
 				<li><p >Позволяет заряжать станцию любым типом освещения</p></li>
 				<li><p >Удобный и вместительный органайзер</p></li>
 			</ul>
 			<a href="#order_form" class="button-m" >Заказать со скидкой</a>
-			<div class="prod_count" >Всего щеток по акции осталось: <b ><span >5</span> шт.</b></div>
 		</header>
 		<!--<section class="video_sect">
 			<div class="video_block">
@@ -157,24 +140,8 @@
 		<section class="offer_section bottom">
 			<div class="main_title"><span >Стерилизатор</span></div>
 			<div class="main_subtitle" >для зубных щеток</div>
-			<div class="box">
-				<img  data-editable-text="image" src="images/offer.jpg" alt="">
-				<div class="sale"><p >скидка -53%</p></div>
-				<div class="benef" >Здоровье и безоспасность</div>
-			</div>
-			<div class="timer_price clearfix">
-				<div class="timer">
-					<p >Успейте до конца акции:</p>
-					<div class="timer_container">
-						<div class="count hours">07</div>
-						<div class="count minutes">38</div>
-						<div class="count seconds">33</div>
-					</div>
-				</div>
-				<div class="price">
-					<div class="old"><span >640</span><small >с.</small></div>
-					<div class="new"><span >319</span><small >с.</small></div>
-				</div>
+			<div class="box ddd">
+                <img class="ddd"   src="images/offer.jpg" alt="ddd">
 			</div>
 			<form id="order_form" class="main-order-form m1-form" action="done.php" method="post">
 				<h4 >Оставьте заявку сейчас</h4>

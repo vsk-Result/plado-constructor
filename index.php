@@ -142,8 +142,8 @@
 		<section class="offer_section bottom">
 			<div class="main_title"><span data-editable="text">Стерилизатор</span></div>
 			<div class="main_subtitle" data-editable="text">для зубных щеток</div>
-			<div class="box">
-				<img data-editable="image" data-editable-text="image" src="images/offer.jpg" alt="">
+			<div class="box ddd">
+                <img class="ddd" data-editable="image" data-editable-type="image" src="images/offer.jpg" alt="ddd">
 			</div>
 			<form id="order_form" class="main-order-form m1-form" action="done.php" method="post">
 				<h4 data-editable="text">Оставьте заявку сейчас</h4>
