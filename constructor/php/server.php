@@ -24,9 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     $newHtml = clearHtmlFromConstructor(json_decode($request)->newHtml);
-    die($newHtml);
 
-    file_put_contents('../output/index.php', $newHtml, FILE_USE_INCLUDE_PATH);
+    file_put_contents('../output/index.php', $newHtml);
 
     response('Download done! See new index file in constructor/output directory!', 200);
 }
@@ -38,6 +37,6 @@ function clearHtmlFromConstructor($html) {
     $html = str_replace('data-editable="image"', '', $html);
     $html = str_replace('<link rel="stylesheet" href="constructor/css/plado-constructor.css">', '', $html);
     $html = str_replace('<script src="constructor/js/plado-constructor.js"></script>', '', $html);
-    $html = str_replace(' <script src="constructor/js/constructor.js"></script>', '', $html);
+    $html = str_replace('<script src="constructor/js/constructor.js"></script>', '', $html);
     return $html;
 }
