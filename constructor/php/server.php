@@ -24,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     $newHtml = clearHtmlFromConstructor(json_decode($request)->newHtml);
+    die($newHtml);
 
     file_put_contents('../output/index.php', $newHtml, FILE_USE_INCLUDE_PATH);
 
