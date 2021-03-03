@@ -24,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     $newHtml = clearHtmlFromConstructor(json_decode($request)->newHtml);
+    unlink($_SERVER['DOCUMENT_ROOT'] . '/constructor/output/new_index.php');
     file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/constructor/output/new_index.php', $newHtml);
 
     response('Download done! See new index file in constructor/output directory!', 200);
