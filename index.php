@@ -6,6 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=480">
 	<meta name="description" content="Мультифункциональный Стерилизатор для зубных щеток">
+    <meta http-equiv="Cache-Control" content="no-cache">
 	<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="assets_pages/land/css/reset.css">
     <link rel="stylesheet" href="constructor/css/plado-constructor.css">

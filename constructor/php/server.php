@@ -5,7 +5,8 @@ $token = 'your-token';
 function response($data, int $http_code = 200) {
     http_response_code($http_code);
     header('Content-Type: application/json');
-    header("Cache-Control: no-cache, must-revalidate");
+    header("Cache-Control: no-store, no-cache, must-revalidate");
+    header("Expires: " . date("r"));
     header("Access-Control-Allow-Origin: *");
     header("Access-Control-Allow-Credentials: true");
 
